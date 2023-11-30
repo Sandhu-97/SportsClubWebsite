@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Club</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="/images/lpu logo2.png" type="image/icon type">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+</head>
+<body>
+    <header>
+    <div class="header">
+        <div class="left">
+            <img src="images/lpu logo2.png" alt="LPU Logo">
+        </div>
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <button class="btn" onclick="contactUs()">
+                Contact Us
+            </button>
+        </div>
+    </div>
+    </header>
+    <div class="container">
+        <p>Join Us</p>
+        <form action="javascript:void(0);" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="radio" name="gender" id="gender" value="male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="female">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender" value="others">
+                <label for="gender">Others</label>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No:</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Your Number">
+            </div>
+            <div class="form-group">
+                <label for="game">Game:</label>
+                <select name="game" id="game" >
+                    <option value="cricket">Cricket</option>
+                    <option value="football">Football</option>
+                    <option value="hockey">Hockey</option>
+                    <option value="athletics">Athletics</option>
+                    <option value="kabaddi">Kabaddi</option>
+                    <option value="martialarts">Martial Arts</option>
+                    <option value="badminton">Badminton</option>
+                    <option value="tennis">Tennis</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Apply" class="btn">
+            </div>
+        </form>
+    </div>
+<script>
+    console.log('Hello');
+    function contactUs(){
+            alert('Email: lpusportsclub@gmail.com\nPhone:1122334499');
+        }
+</script>
+
+</body>
+</html>

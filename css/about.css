@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background: url('/images/swim.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    margin: 10px auto;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 15px;
+}
+.mid{
+    display: block;
+    width:50%;
+    margin: 40px auto 0px auto;
+}
+
+.left img{
+    width:110px;
+}
+
+.mid h1{
+    text-align: center;
+    color:rgb(255, 200, 0);
+    text-shadow: 8px 8px 6px gray;
+}
+
+
+.container{
+    border: 2px solid white;
+    border-radius: 8px;
+    width:80%;
+    margin: 80px auto 0px auto;
+    color:white;
+}
+
+.container h2{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 4px 3px 8px rgb(255, 200, 0);
+    border: 2px solid black;
+}
+
+.container p{
+    margin: 10px;
+    font-size: 16px;
+    color:rgb(255, 227, 127);
+    text-shadow: 2px 2px 1px rgb(29, 26, 26);
+}
+
+.container p:hover{
+    text-shadow: 2px 2px 1px gray;
+}
+
+.mid h1:hover, .container h2:hover{
+    text-shadow: 8px 8px 6px black;
+}
+.btn{
+    width: 200px;
+    display: block;
+    margin:25px auto 0px auto;
+    background-color:transparent;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color:rgb(255, 200, 0);
+    text-shadow: 2px 2px 1px gray;
+}
+
+.btn:hover{
+    background-color: rgb(57, 57, 57);
+    transition-duration: 1000ms;
+}

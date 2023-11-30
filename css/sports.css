@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background: url('/images/tracks.jpg');
+    background-size: 1300px 600px;
+    background-repeat: no-repeat;
+
+}
+
+.header {
+    margin: 10px auto;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 15px;
+
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 40px auto 0px auto;
+}
+
+.left img {
+    width: 110px;
+}
+
+.mid h1 {
+    text-align: center;
+    color: maroon;
+    text-shadow: 8px 8px 10px gray;
+    /* border: 2px solid black; */
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    border: 3px solid maroon;
+    border-radius: 8px;
+    width: 90%;
+    margin: 80px auto 0px auto;
+    color: white;
+}
+
+.left-container {
+    text-align: center;
+    width: 33%;
+    /* border: 2px solid red; */
+}
+
+.mid-container {
+    text-align: center;
+    width: 33%;
+    /* border: 2px solid; */
+}
+
+.right-container {
+    text-align: center;
+    /* border: 2px solid blue; */
+    width: 33%;
+}
+
+.left-container h2, .mid-container h2, .right-container h2{
+    text-shadow: 6px 6px 8px maroon;
+    color:black;
+}
+
+.left-container p, .right-container p, .mid-container p{
+    color:rgb(244, 189, 171);
+    text-shadow: 4px 4px 8px maroon;
+    
+}
+
+.left-container p {
+    margin: 6px;
+}
+
+.footer {
+    /* border: 2px solid green; */
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: transparent;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    /* color:rgb(244, 189, 171); */
+    text-shadow: 4px 4px 8px maroon;
+}
+
+.btn:hover {
+    background-color: rgb(57, 57, 57);
+    transition-duration: 1000ms;
+
+}
